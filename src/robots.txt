@@ -1,3 +1,5 @@
 User-agent: *
+Allow: /
 
-Sitemap: https://fpico.org/sitemap.xml
+
+Sitemap: https://meso-19.netlify.app/ar/sitemap.xml
