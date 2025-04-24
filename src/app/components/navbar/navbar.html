@@ -60,38 +60,53 @@
       <div class="flex flex-col xl:flex-row font-medium">
         <!-- Ul Links -->
         <ul class="flex flex-col xl:flex-row xl:space-x-[40px] rtl:space-x rtl:ml-auto ltr:mr-auto">
-          <li class="cursor-pointer" [routerLink]="['/', currentLang$ | async, 'home']">
-            <a class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0" aria-current="page">
+          <li class="cursor-pointer">
+            <a
+              class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0"
+              aria-current="page"
+              [routerLink]="['/', currentLang$ | async, 'home']">
               {{ "navbar.pages_Title.home.title" | translate }}
             </a>
           </li>
 
-          <li class="cursor-pointer" [routerLink]="['']">
-            <a class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0" aria-current="page">
+          <li class="cursor-pointer">
+            <a class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0" aria-current="page" [routerLink]="['']">
               {{ "navbar.pages_Title.products.title" | translate }}
             </a>
           </li>
 
-          <li class="cursor-pointer" [routerLink]="['/', currentLang$ | async, 'blog']">
-            <a class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0" aria-current="page">
+          <li class="cursor-pointer">
+            <a
+              class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0"
+              aria-current="page"
+              [routerLink]="['/', currentLang$ | async, 'blog']">
               {{ "navbar.pages_Title.articles.title" | translate }}
             </a>
           </li>
 
-          <li class="cursor-pointer" [routerLink]="['/', currentLang$ | async, 'shopping']">
-            <a class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0" aria-current="page">
+          <li class="cursor-pointer">
+            <a
+              class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0"
+              aria-current="page"
+              [routerLink]="['/', currentLang$ | async, 'shopping']">
               {{ "navbar.pages_Title.shopping_now.title" | translate }}
             </a>
           </li>
 
-          <li class="cursor-pointer" [routerLink]="['/', currentLang$ | async, 'about-us']">
-            <a class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0" aria-current="page">
+          <li class="cursor-pointer">
+            <a
+              class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0"
+              aria-current="page"
+              [routerLink]="['/', currentLang$ | async, 'about-us']">
               {{ "navbar.pages_Title.who_we_are.title" | translate }}
             </a>
           </li>
 
-          <li class="cursor-pointer" [routerLink]="['/', currentLang$ | async, 'contact-us']">
-            <a class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0" aria-current="page">
+          <li class="cursor-pointer">
+            <a
+              class="block py-2 px-3 text-black font-bold rounded-sm xl:p-0"
+              aria-current="page"
+              [routerLink]="['/', currentLang$ | async, 'contact-us']">
               {{ "navbar.pages_Title.contact_Us.title" | translate }}
             </a>
           </li>
@@ -182,23 +197,29 @@
             }
           </li>
 
-          <li class="cursor-pointer" [routerLink]="['/', currentLang$ | async, 'wishlist']">
-            <a class="block py-2 px-3 xl:p-0" aria-current="page">
+          <li class="cursor-pointer">
+            <a
+              class="block py-2 px-3 xl:p-0"
+              aria-current="page"
+              [routerLink]="['/', currentLang$ | async, 'wishlist']">
               <figure class="max-w-[25px] max-h-[25px]">
                 <img loading="lazy" src="/images/navbar/6.webp" alt="" />
               </figure>
             </a>
           </li>
           <!-- Cart -->
-          <li class="hidden xl:block cursor-pointer" [routerLink]="['/', currentLang$ | async, 'cart']">
-            <button class="block py-2 px-3 xl:p-0" aria-current="page">
+          <li class="hidden xl:block cursor-pointer">
+            <button
+              class="block py-2 px-3 xl:p-0"
+              aria-current="page"
+              [routerLink]="['/', currentLang$ | async, 'cart']">
               <figure class="max-w-[25px] max-h-[25px]">
                 <img loading="lazy" src="/images/navbar/7.webp" alt="" />
               </figure>
             </button>
           </li>
-          <li class="cursor-pointer" [routerLink]="['/', currentLang$ | async, 'profile']">
-            <a class="block py-2 px-3 xl:p-0" aria-current="page">
+          <li class="cursor-pointer">
+            <a class="block py-2 px-3 xl:p-0" aria-current="page" [routerLink]="['/', currentLang$ | async, 'profile']">
               <figure class="max-w-[25px] max-h-[25px]">
                 <img loading="lazy" src="/images/navbar/4.webp" alt="" />
               </figure>
