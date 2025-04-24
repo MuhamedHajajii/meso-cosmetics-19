@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://fpico.org/sitemap.xml
